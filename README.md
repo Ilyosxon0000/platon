@@ -1,7 +1,7 @@
 # platon
-Bu Realsoft korxonasining Platon konstruktor platformasini dockerda o'rnatish uchun.
-Birinchi o'rinda shu sahifadagi ma'lumotlar bilan tanishib chiqing.
-bug-1 formadan file yuklaganda nginx 405 beradi shunda. nginx conf ni update qilish kerak.
+- Bu Realsoft korxonasining Platon konstruktor platformasini dockerda [o'rnatish uchun](https://doc.platon.uz/uz/first-steps/docker-image).
+- Birinchi o'rinda shu sahifadagi ma'lumotlar bilan tanishib chiqing.
+- bug-1 formadan file yuklaganda nginx 405 beradi shunda. nginx conf ni update qilish kerak.
 ```
 upstream project {
     server 127.0.0.1:7001;
